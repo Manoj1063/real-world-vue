@@ -33,25 +33,25 @@
 </template>
 
 <script>
-import EventService from '@/services/EventService.js';
+import EventService from '@/services/EventService.js'
 
 export default {
   props: ['id'],
   data() {
     return {
       event: {}
-    };
+    }
   },
   created() {
     EventService.getEvent(this.id)
       .then(response => {
-        this.event = response.data;
+        this.event = response.data
       })
       .catch(eror => {
-        console.log('There was an error', error.response);
-      });
+        console.log('There was an error', error.response)
+      })
   }
-};
+}
 </script>
 
 <style scoped>
