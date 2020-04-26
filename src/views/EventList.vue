@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import EventCard from '@/components/EventCard.vue';
-import EventService from '@/services/EventService.js';
+import EventCard from '@/components/EventCard.vue'
+import EventService from '@/services/EventService.js'
 
 export default {
   components: {
@@ -16,18 +16,18 @@ export default {
   data() {
     return {
       events: []
-    };
+    }
   },
   created() {
     EventService.getEvents()
       .then(reponse => {
-        this.events = reponse.data;
+        this.events = reponse.data
       })
       .catch(error => {
-        console.log('There is an error:' + error);
-      });
+        console.log('There is an error:' + error)
+      })
   }
-};
+}
 </script>
 
 <style></style>

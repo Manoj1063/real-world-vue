@@ -20,7 +20,7 @@ export default {
       default: 24
     }
   }
-};
+}
 </script>
 
 <style scoped>

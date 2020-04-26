@@ -1,9 +1,17 @@
 <template>
-  <h1>Event Create Page</h1>
+  <div>
+    <h1>Event Create Page {{ $store.state.user.name }}</h1>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    userName() {
+      return this.$store.state.user.name
+    }
+  }
+}
 </script>
 
 <style></style>

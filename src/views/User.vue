@@ -7,7 +7,7 @@
 <script>
 export default {
   props: ['username']
-};
+}
 </script>
 
 <style></style>
