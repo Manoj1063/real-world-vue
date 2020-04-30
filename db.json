@@ -249,6 +249,24 @@
       "date": "2020-04-02T03:30:00.000Z",
       "time": "17:00",
       "attendees": []
+    },
+    {
+      "id": 5035676,
+      "user": {
+        "id": "abc123",
+        "name": "Manoj Kumar"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Manoj Kumar"
+      },
+      "title": "Plant 100 trees",
+      "description": "Plant 100 trees",
+      "location": "in forest",
+      "date": "2020-05-02T03:37:00.000Z",
+      "time": "22:00",
+      "attendees": []
     }
   ]
 }
