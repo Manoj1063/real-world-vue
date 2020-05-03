@@ -269,17 +269,17 @@
       "attendees": []
     },
     {
-      "id": 4355880,
+      "id": 2230984,
       "user": {
         "id": "abc123",
         "name": "Manoj"
       },
-      "category": "",
+      "category": "animal welfare",
       "organizer": {
         "id": "abc123",
         "name": "Manoj"
       },
-      "title": "SUCESS",
+      "title": "aaaaa",
       "description": "",
       "location": "",
       "date": "",
@@ -287,17 +287,17 @@
       "attendees": []
     },
     {
-      "id": 7515273,
+      "id": 7368681,
       "user": {
         "id": "abc123",
         "name": "Manoj"
       },
-      "category": "",
+      "category": "housing",
       "organizer": {
         "id": "abc123",
         "name": "Manoj"
       },
-      "title": "AAAA",
+      "title": "aaaaaaaaa",
       "description": "",
       "location": "",
       "date": "",
