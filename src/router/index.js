@@ -7,6 +7,7 @@ import NProgress from 'nprogress'
 import store from '@/store/store'
 import NotFound from '@/views/NotFound'
 import NetworkError from '@/views/NetworkError'
+import Example from '@/views/Example.vue'
 
 Vue.use(Router)
 

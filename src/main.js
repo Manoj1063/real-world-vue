@@ -8,7 +8,7 @@ import BaseIcon from '@/components/BaseIcon'
 import 'nprogress/nprogress.css'
 import vuelidate from 'vuelidate'
 
-vue.use(vuelidate)
+Vue.use(vuelidate)
 
 Vue.component('BaseIcon', BaseIcon)
 
